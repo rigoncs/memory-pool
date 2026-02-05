@@ -1,4 +1,5 @@
-# include "../include//ThreadCache.h"
+#include "../include//ThreadCache.h"
+#include "../include/CentralCache.h"
 
 namespace Rigon_memoryPool {
 
