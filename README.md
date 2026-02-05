@@ -17,3 +17,5 @@
 ![内存池架构](./images/pic1.png)
 ## 执行流程图
 ![执行流程](./images/pic2.png)
+## 线程本地缓存(ThreadCache)
+![freeList_](./images/pic3.png)
