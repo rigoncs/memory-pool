@@ -19,3 +19,5 @@
 ![执行流程](./images/pic2.png)
 ## 线程本地缓存(ThreadCache)
 ![freeList_](./images/pic3.png)
+## PageCache freeSpans_
+![freeSpans](./images/pic4.png)
