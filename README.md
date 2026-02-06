@@ -21,3 +21,11 @@
 ![freeList_](./images/pic3.png)
 ## PageCache freeSpans_
 ![freeSpans](./images/pic4.png)
+## 编译
+```bash
+mkdir build
+cd build
+cmake ..
+make
+make clean
+```
