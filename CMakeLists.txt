@@ -13,4 +13,7 @@ add_executable(RigonMemoryPool main.cpp
         src/CentralCache.cpp
         include/PageCache.h
         src/PageCache.cpp
+        tests/PerformanceTest.cpp
+        include/MemoryPool.h
+        tests/UnitTest.cpp
 )
