@@ -9,4 +9,6 @@ add_executable(RigonMemoryPool main.cpp
         main.cpp
         include/ThreadCache.h
         src/ThreadCache.cpp
-        include/CentralCache.h)
+        include/CentralCache.h
+        src/CentralCache.cpp
+)

@@ -63,7 +63,7 @@ namespace Rigon_memoryPool {
         // 根据对象内存大小计算批量获取的数量
         size_t batchNum = getBatchNum(size);
         // 从中心缓存批量获取内存
-        void* start = CentralCache::getInstance().fetchRange(index, batchNum);
+        void* start = CentralCache::getInstance().fetchRange(index);
         if (!start) {
             return nullptr;
         }

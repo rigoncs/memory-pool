@@ -21,8 +21,8 @@ namespace Rigon_memoryPool {
             return instance;
         }
 
-        void* fetchRange(size_t index, size_t &batchNum);
-        void returnRange(void* start, size_t size, size_t bytes);
+        void* fetchRange(size_t index);
+        void returnRange(void* start, size_t size, size_t index);
 
     private:
         CentralCache();
